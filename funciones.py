@@ -29,7 +29,7 @@ def calcular_imc():
     while True:
         try:
             peso = int(input("Ingrese su peso en KG "))
-            altura = float(input("Ingrese su altura "))
+            altura = float(input("Ingrese su altura en metros "))
             if peso < 0 or altura < 0 :
                 print("Ingrese precio valido")
             else:
